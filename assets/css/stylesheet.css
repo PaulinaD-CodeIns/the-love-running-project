@@ -23,6 +23,10 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 main {
     background-color: lightblue;
     /* Make main conent take up any surplus space to push down the footer*/
@@ -32,6 +36,7 @@ main {
 footer {
     background-color: orange;
 }
+
 
  
       
