@@ -221,6 +221,15 @@ img {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*Media query for large or landscape phones:*/
+@media  screen and (min-width:768px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+    
+}
+
 /* Media query for tabllets and larger (768px+)*/
  @media screen and (min-width: 768px) {
     /* Header */
@@ -273,6 +282,11 @@ img {
         text-align: end;
         align-self: flex-end;
     }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
  }
 
 /* Media query for larger devices (laptops/deskptops)*/
@@ -280,6 +294,11 @@ img {
 
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 }
 
